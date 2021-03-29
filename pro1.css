@@ -1,0 +1,109 @@
+body {
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 0px;
+    margin: 0px;
+    color: whitesmoke;
+    background: url('https://source.unsplash.com/user/erondu/200x200') no-repeat center center/cover;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.left img {
+    width: 130px;
+    /* changes the white color to black and vis a vis  */
+    /* filter: invert(100%); */
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+    /* border: 2px solid red; */
+}
+
+.right {
+    position: absolute;
+    top: 43px;
+    right: 34px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.buttton {
+    font-family: 'Akaya Telivigala', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttton:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.conta {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group inputText {
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.conta h1 {
+    text-align: center;
+}
+
+.conta button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
